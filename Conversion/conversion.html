@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversion</title>
+<link rel="stylesheet" href="conversion.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div>
+ <h3>Mass Conversions</h3> 
+ <nav>
+     <b>Kilogram</b><br>
+     <a onclick="kto()">to Ounces</a>
+     <a onclick="ktl()">to Pounds</a>
+     <a onclick="ktt()">to Tonnes</a>
+     <a onclick="ktg()">to Grains</a>
+     <a onclick="ktd()">to Dram</a>
+ <br>
+  <b>Pounds</b><br>
+     <a onclick="ptk()">to Kg</a>
+     <a onclick="ptt()">to Tonnes</a>
+     <a onclick="pto()">to Ounces</a>
+     <a onclick="ptg()">to Grains</a>
+     <a onclick="ptd()">to Dram</a>
+     
+ <br>
+  <b>Tonnes</b><br>
+     <a onclick="ttk()">to Kg</a>
+     <a onclick="ttp()">to Pounds</a>
+     <a onclick="tto()">to Ounces</a>
+     <a onclick="ttg()">to Grains</a>
+     <a onclick="ttd()">to Dram</a>
+  <br>
+  <b>Ounces</b><br>
+     <a onclick="otk()">to Kg</a>
+     <a onclick="otp()">to Pounds</a>
+     <a onclick="ott()">to Tonnes</a>
+     <a onclick="otg()">to Grains</a>
+     <a onclick="otd()">to Dram</a>
+   <br>
+  <b>Drams</b><br>
+     <a onclick="dtk()">to Kg</a>
+     <a onclick="dtp()">to Pounds</a>
+     <a onclick="dtt()">to Tonnes</a>
+     <a onclick="dtg()">to Grains</a>
+     <a onclick="dto()">to Ounces</a>
+     
+     </nav> 
+ <div id="align-right">
+ 
+ 
+ <p id="info">Choose a conversion</p>
+ 
+ <input type="number" id="initial" value="0" oninput="convo()"><span id="iniunit"></span><br><br>
+ <input id="final" value="0" readonly><span id="unit"></span>
+ </div></div><br><br>
+ <hr>
+     <div>
+ <h3>Length Conversions</h3> 
+ <nav>
+     <b>Meter</b><br>
+     <a onclick="mty()">to Yard</a>
+     <a onclick="mtmi()">to Mile</a>
+     <a onclick="mti()">to Inch</a>
+     <a onclick="mtf()">to Foot</a>
+     
+ <br>
+  <b>Yard</b><br>
+     <a onclick="ytm()">to Meter</a>
+     <a onclick="ytmi()">to Mile</a>
+     <a onclick="yti()">to Inch</a>
+     <a onclick="ytf()">to Foot</a>
+     
+ <br>
+  <b>Mile</b><br>
+     <a onclick="mity()">to Yard</a>
+     <a onclick="mitm()">to Meter</a>
+     <a onclick="miti()">to Inch</a>
+     <a onclick="mitf()">to Foot</a>
+     <br>
+<b>Inch</b><br>
+     <a onclick="ity()">to Yard</a>
+     <a onclick="itmi()">to Mile</a>
+     <a onclick="itm()">to Meter</a>
+     <a onclick="itf()">to Foot</a>
+     <br>
+  <b>Foot</b><br>
+     <a onclick="fty()">to Yard</a>
+     <a onclick="ftmi()">to Mile</a>
+     <a onclick="fti()">to Inch</a>
+     <a onclick="ftm()">to Meter</a>
+     <br>
+     </nav> 
+ <div id="align-right">
+ 
+ 
+ <p id="info2">Choose a conversion</p>
+ 
+ <input type="number" id="initial2" value="0" oninput="convo2()"><span id="iniunit2"></span><br><br>
+ <input id="final2" value="0" readonly><span id="unit2"></span>
+ </div></div><br><br>
+ <hr>
+ 
+ <div>
+ <h3>Angle Conversions</h3> 
+ <nav>
+     <b>Degree</b><br>
+     <a onclick="dtr()">to Radian</a>
+     <a onclick="dtgl()">to Gradian</a>
+     
+ <br>
+  <b>Radian</b><br>
+     <a onclick="rtd()">to Degree</a>
+     <a onclick="rtg()">to Gradian</a>
+     
+ <br>
+  <b>Gradian</b><br>
+     <a onclick="gtr()">to Radian</a>
+     <a onclick="gtd()">to Degree</a>
+     <br>
+
+     </nav> 
+ <div id="align-right">
+ 
+ 
+ <p id="info3">Choose a conversion</p>
+ 
+ <input type="number" id="initial3" value="0" oninput="convo3()"><span id="iniunit3"></span><br><br>
+ <input id="final3" value="0" readonly><span id="unit3"></span>
+ </div></div><br><br>
+ <hr>
+<script src="conversion.js">
+</script>
+</body>
+</html>
